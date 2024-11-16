@@ -1,0 +1,27 @@
+/* Navbar Link Hover Effect */
+.navbar-nav .nav-link:hover {
+    background-color: green; /* Green background on hover */
+    color: white; /* White text on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Main Body Styling */
+#mainbody {
+    font-family: Poppins, sans-serif; /* Use Poppins font */
+    background-color: #d9d2d2; /* Light gray background */
+}
+
+/* Nav Item Styling */
+.nav-item {
+    position: relative; /* Enable positioning for the badge */
+}
+
+/* Badge Styling for Cart and Orders */
+.badge-cart, .badge-orders {
+    font-size: 0.75rem; /* Smaller font size */
+    width: 1.5rem; /* Set width */
+    height: 1.5rem; /* Set height */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
